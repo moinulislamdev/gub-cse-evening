@@ -1,0 +1,57 @@
+/********************************* basic documention ************************************/
+* {
+	text-align: center;
+	font-family: serif;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+.row {
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+/********************************* header part ******************************************/
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/cover.jpg);
+	background-size: contain;
+	height: 220px;
+  color: #fff;
+  margin: 0;
+}
+header h1 {
+  margin-top: 0;
+  padding-top: 25px;
+}
+header a {
+	color: #fff;
+}
+
+.hidden {
+  display: none;
+}
+
+/********************************* tabile documantion ************************************/
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+td, th {
+  border: 1px solid #c8c8c8;
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/********************************* Search documantion ************************************/
+#search {
+  background-image: url('../img/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 0px;
+  border: 1px solid #ddd;
+  margin: 12px 0;
+}
